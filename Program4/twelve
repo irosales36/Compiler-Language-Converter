@@ -1,0 +1,21 @@
+program
+  	int a;
+  begin
+  	a:=2;
+  	if(a<5)
+  	  begin
+	  	write(1);
+	  end
+	elsif(a<10)
+	  begin
+	  	write(2);
+	  end
+	elsif(a<20)
+	  begin
+	  	write(3);
+	  end
+	else
+	  begin
+	  	write(4);
+	  end
+  end.

@@ -1,0 +1,8 @@
+program
+ int a,b,c;
+begin
+a := 3;
+b := 5;
+c := a + b;
+a := b;
+end.

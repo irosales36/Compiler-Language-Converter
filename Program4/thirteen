@@ -1,0 +1,26 @@
+program
+  	int a;
+  begin
+  	a:=2;
+  	if(a<5)
+  	  begin
+  	    while(a>2)
+  	      begin
+  	        if(a=3)
+  	          begin
+  	            write(1);
+  	          end
+  	      end
+	    end
+    elsif(a<10)
+	    begin
+        if(a=9)
+	  	    begin
+            write(2);
+	  	    end
+	  	  else
+	  	    begin
+     		   write(3);
+	  	    end
+	    end
+  end.

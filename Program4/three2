@@ -1,0 +1,13 @@
+program
+    int myinteger;
+    int foo , bar;
+  begin
+    foo := 1 ;
+    bar := 2 ;
+    while ( foo <> 10 )
+      begin 
+        foo := foo + 1 ;
+        bar := ( bar * foo ) / 2 ;
+      end
+    write (bar);
+  end.
